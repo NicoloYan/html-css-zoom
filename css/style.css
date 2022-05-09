@@ -1,0 +1,47 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.nav-container {
+    position: relative;
+}
+
+.nav span {
+    background-color: #4a4a4a;
+}
+
+.nav {
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/* Main */
+
+main {
+    height: calc( 100vh - 180px );
+    overflow-y: auto;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    color: #222222;
+
+}
